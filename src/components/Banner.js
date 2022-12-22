@@ -1,5 +1,5 @@
 import '../styles/Banner.css';
-import leaf from '../assets/leaf.png';
+import leaf from '../assets/reactLogo.png';
 
 function Banner() {
     return (

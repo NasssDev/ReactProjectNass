@@ -1,5 +1,6 @@
 import {projectObjectList} from "../datas/ProjectObjectList";
 import '../styles/ProjectObjectList.css';
+import ProjectItem from './ProjectItem.js';
 
 
 
@@ -16,20 +17,23 @@ function ProjectList() {
             <div>
                 <ul >
                     {categories.map((cat, index) => (
-                        <li key={cat}>{cat}</li>
+                        <li key={cat}>{cat} </li>
                     ))}
                 </ul>
                 <ul className={"projectname"}>
                     {projectObjectList.map((project, index) => (
-                        <li className="categories" key={project.id}>
-                            {project.name}
-                            {project.isBestProject && <div className="best"> **NassBro** </div>}
-                        </li>
-
+                        <ProjectItem name={project.name}
+                                     isBestProject={project.isBestProject}
+                                     stack={project.stack}
+                                     id={project.id}
+                        />
                     ))}
-
                 </ul>
+
+
+
             </div>
+
     )
 }
 

@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c7c7355-60c1-4a70-ad9f-f8d2eb207347" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/reactLogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/leaf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datas/ProjectObjectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/ProjectObjectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nassi\Desktop\Cours-Hetic\nassopen\src\assets" />
       <recent name="C:\Users\nassi\Desktop\Cours-Hetic\nassopen\src\styles" />
       <recent name="C:\Users\nassi\Desktop\Cours-Hetic\nassopen\src\components" />
     </key>
@@ -81,7 +79,7 @@
       <workItem from="1670425133923" duration="2981000" />
       <workItem from="1670511281643" duration="12074000" />
       <workItem from="1671702829816" duration="793000" />
-      <workItem from="1671703663912" duration="1274000" />
+      <workItem from="1671703663912" duration="6665000" />
     </task>
     <servers />
   </component>
@@ -98,16 +96,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/ProjectList.js</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
