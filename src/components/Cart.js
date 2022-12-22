@@ -1,15 +1,14 @@
-
+import logoreact from "../assets/reactLogo.png";
 
 function Cart () {
-    let fleur1 = 8, fleur2 = 10, fleur3 = 15;
     return (<div className="cart-jungle">
-        <h2>Panier:</h2>
-        <ul>
-            <li>UN : {fleur1} euros</li>
-            <li>DEUX : {fleur2} euros</li>
-            <li>TROIS : {fleur3} euros</li>
-        </ul>
-        Total = {fleur1 + fleur2 + fleur3} euros !
+        <h2>Informations:</h2>
+        <p>
+            Développeur web en pleine expension,
+            je me lance dans mon premier projet React <img style={{ height: '1.5%', width: '1.5%', backgroundColor: 'white', borderRadius: '2px'}}
+                 src={logoreact}/> ! <br/>
+            Ce projet a pour but de présenter mes autres projets dans différents langages.
+        </p>
     </div>)
 }
 

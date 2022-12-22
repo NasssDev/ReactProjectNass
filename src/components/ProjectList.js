@@ -26,6 +26,7 @@ function ProjectList() {
                                      isBestProject={project.isBestProject}
                                      stack={project.stack}
                                      id={project.id}
+                                     cover={project.cover}
                         />
                     ))}
                 </ul>

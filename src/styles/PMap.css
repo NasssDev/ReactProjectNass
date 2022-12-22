@@ -1,0 +1,19 @@
+.logo-PMap {
+    border-radius: 20px;
+    border: solid 2px black;
+    height: 100%;
+    width: 100%;
+}
+
+.project-item {
+    border-radius: 10px;
+    height: 190px;
+    width: 190px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    position: relative;
+}

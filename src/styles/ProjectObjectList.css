@@ -21,11 +21,11 @@
 
 .best {
     position: absolute;
-    right: 0px;
+    right: -1%;
     top: 10px;
     font-weight: 500;
     color: white;
     padding: 5px 10px;
-    background-color: #31b572;
+    background-color: #4f9fc9;
 }
 

@@ -1,11 +1,16 @@
 import CareScale from "./CareScale";
+import "../assets/projetMap.png";
+import "../styles/PMap.css";
 
-function ProjectItem ({name, isBestProject, stack, id}) {
+function ProjectItem ({name, isBestProject, stack, id, cover}) {
     return (
-        <li className="categories" key={id}>
+        <li className="project-item" key={id}>
+            <img src={cover} alt={`${name} cover`} className='logo-PMap'/>
         {name}
-        {isBestProject && <div className="best"> **goodProject** </div>}
-        <CareScale scaleValue={stack}/>
+        {isBestProject && <div className="best"> **Good** </div>}
+            <div>
+                <CareScale scaleValue={stack}/>
+            </div>
     </li>)
 }
 
