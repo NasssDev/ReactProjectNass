@@ -1,4 +1,0 @@
-autowiring:
-    exclude:
-        - './../src/Entity'
-        - './../src/Controller'
