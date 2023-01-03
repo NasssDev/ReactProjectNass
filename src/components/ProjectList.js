@@ -22,11 +22,13 @@ function ProjectList() {
                 </ul>
                 <ul className={"projectname"}>
                     {projectObjectList.map((project, index) => (
-                        <ProjectItem name={project.name}
+                        <ProjectItem key={project.id}
+                                     name={project.name}
                                      isBestProject={project.isBestProject}
                                      stack={project.stack}
                                      id={project.id}
                                      cover={project.cover}
+                                     url={project.url}
                         />
                     ))}
                 </ul>

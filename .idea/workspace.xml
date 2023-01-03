@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3c7c7355-60c1-4a70-ad9f-f8d2eb207347" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CareScale.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CareScale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/projetMap.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/projetMap.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProjectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datas/ProjectObjectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/ProjectObjectList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/ProjectObjectList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/ProjectObjectList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/PMap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/PMap.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nassi/Desktop/Cours-Hetic/nassopen",
+    "last_opened_file_path": "C:/Users/nassi/Desktop/Cours-Hetic/Emir/FINAL-PROJECT-BACK-W2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +79,8 @@
       <workItem from="1670425133923" duration="2981000" />
       <workItem from="1670511281643" duration="12074000" />
       <workItem from="1671702829816" duration="793000" />
-      <workItem from="1671703663912" duration="12094000" />
+      <workItem from="1671703663912" duration="12693000" />
+      <workItem from="1672135930014" duration="7991000" />
     </task>
     <servers />
   </component>

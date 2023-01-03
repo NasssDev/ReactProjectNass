@@ -1,4 +1,6 @@
 import projetMap from '../assets/projetMap.png'
+import blogMvc from '../assets/BlogMvc.PNG'
+import formContact from '../assets/formContact.PNG'
 
 export const projectObjectList = [
     {
@@ -7,7 +9,8 @@ export const projectObjectList = [
         id: '1ed',
         isBestProject: true,
         stack : '(front)',
-        cover : projetMap
+        cover : projetMap,
+        url : 'https://xclzc8.csb.app/'
     },
     {
         name: 'form contact',
@@ -15,14 +18,14 @@ export const projectObjectList = [
         id: '2ab',
         isBestProject: false,
         stack : '(back)',
-        cover: projetMap
+        cover: formContact
     },
     {
-        name: 'projet X',
-        category: 'X??X',
+        name: 'BlogMvc',
+        category: 'PHP',
         id: '3sd',
-        isBestProject: false,
+        isBestProject: true,
         stack : '(back)',
-        cover: projetMap
+        cover: blogMvc
     }
 ]
