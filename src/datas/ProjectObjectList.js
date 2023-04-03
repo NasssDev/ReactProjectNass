@@ -4,8 +4,8 @@ import formContact from '../assets/formContact.PNG'
 
 export const projectObjectList = [
     {
-        name: 'projet map',
-        category: 'html-css-JS',
+        name: 'Projet map',
+        category: 'JavaScript vanilla, Leaflet Library & API.gouv',
         id: '1ed',
         isBestProject: true,
         stack : '(front)',
@@ -13,8 +13,8 @@ export const projectObjectList = [
         url : 'https://xclzc8.csb.app/'
     },
     {
-        name: 'form contact',
-        category: 'boots-laravel',
+        name: 'Form contact',
+        category: 'Laravel & Bootstrap',
         id: '2ab',
         isBestProject: false,
         stack : '(back)',
@@ -22,10 +22,11 @@ export const projectObjectList = [
     },
     {
         name: 'BlogMvc',
-        category: 'PHP',
+        category: 'PHP Natif & template',
         id: '3sd',
         isBestProject: true,
         stack : '(back)',
-        cover: blogMvc
+        cover: blogMvc,
+        url: 'https://github.com/NasssDev/BlogMVC'
     }
 ]

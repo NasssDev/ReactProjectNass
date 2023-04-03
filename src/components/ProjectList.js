@@ -6,19 +6,12 @@ import ProjectItem from './ProjectItem.js';
 
 function ProjectList() {
 
-    const categories = projectObjectList.reduce(
-        (acc, elem) =>
-
-            acc.includes(elem.category) ? acc : acc.concat(elem.category),
-        []
-    )
-
     return (
             <div>
-                <ul >
-                    {categories.map((cat, index) => (
-                        <li key={cat}>{cat} </li>
-                    ))}
+                <ul style={{listStyleType: 'circle'}}>
+                    {projectObjectList.map(element =>
+                        <li key={element.category}>{element.name + " : " + element.category} </li>
+                    )}
                 </ul>
                 <ul className={"projectname"}>
                     {projectObjectList.map((project, index) => (
